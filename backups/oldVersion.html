@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="custom.css">
+		<script src="script.js"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<h1>Hearthstone Card Search</h1>
+			<p>Please select your search type from the drop-down menu and then search for your card.</p>
+		<div class="form-group">
+			<label for="sel1">Search By (select one):</label>
+			<select class="form-control" id="sel1">
+				<option>Card Name</option>
+				<option>Attack Value</option>
+				<option>Class Name</option>
+				<option>Rarity</option>
+				<option>Type (mech, beast, etc.)</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<input type="search" class="form-control" id="searchBar">
+		</div>
+		<div class="form-group">
+			<button type="button" class="btn btn-info" id="searchBtn">
+				<span class="glyphicon glyphicon-search"></span> Search
+			</button>
+		</div>
+			
+		<div class="panel panel-default" id="searchResults">
+			<div class="panel-heading">Search Results:</div>
+			<div class="panel-body"></div>
+		</div>
+		</div>
+		
+		<!-- Footer -->
+		<footer class="container-fluid bg-4 text-center" id="jenniFooter">
+			<p>Website By: Jenni Macklin</p>
+		</footer>
+		
+		<script src="bootstrap/js/jquery-2.2.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

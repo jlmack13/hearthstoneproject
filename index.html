@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="custom.css">
+	</head>
+	<body>
+		<!-- Jumbotron Header -->
+		<div class="jumbotron text-center">
+				<h1>Hearthstone Card Search</h1>
+				<p>Please select your search type from the drop-down menu and then search for your card.</p>
+			<!-- Drop Down Menu -->	
+			<div class="form-group">
+				<label for="sel1">Search By (select one):</label>
+				<select class="form-control" id="dropMenu">
+					<option>Card Name</option>
+					<option>Card Set</option>
+					<option>Class Name</option>
+					<option>Rarity</option>
+					<option>Type (mech, beast, etc.)</option>
+				</select>
+			</div>
+			<!-- Card Set Drop Down -->
+			<div class="form-group" id="setMenu">
+				<select class="form-control" id="secondMenu">
+					<option>Basic</option>
+					<option>Blackrock Mountain</option>
+					<option>Classic</option>
+					<option>Goblins vs Gnomes</option>
+					<option>The Grand Tournament</option>
+					<option>The League of Explorers</option>
+					<option>Naxxramas</option>
+					<option>Promotions</option>
+					<option>Reward</option>
+				</select>
+			</div>
+			
+			<!-- Class Name Drop Down -->
+			<div class="form-group" id="classMenu">
+				<select class="form-control" id="thirdMenu">
+					<option>Druid</option>
+					<option>Hunter</option>
+					<option>Mage</option>
+					<option>Paladin</option>
+					<option>Priest</option>
+					<option>Rogue</option>
+					<option>Shaman</option>
+					<option>Warlock</option>
+					<option>Warrior</option>
+				</select>
+			</div>
+			
+			<!-- Rarity Drop Down -->
+			<div class="form-group" id="rarityMenu">
+				<select class="form-control" id="fourthMenu">
+					<option>Free</option>
+					<option>Common</option>
+					<option>Rare</option>
+					<option>Epic</option>
+					<option>Legendary</option>
+				</select>
+			</div>
+			
+			<!-- Type Drop Down -->
+			<div class="form-group" id="typeMenu">
+				<select class="form-control" id="fifthMenu">
+					<option>Beast</option>
+					<option>Demon</option>
+					<option>Dragon</option>
+					<option>Mech</option>
+					<option>Murloc</option>
+					<option>Pirate</option>
+					<option>Totem</option>
+				</select>
+			</div>
+			
+			<!-- Search Bar -->
+			<div class="form-group">
+				<input type="search" class="form-control" id="searchBar">
+			</div>
+			<!-- Search Button -->
+			<div class="form-group">
+				<button type="button" class="btn btn-info" id="searchBtn">
+					<span class="glyphicon glyphicon-search"></span> Search
+				</button>
+			</div>
+		</div>
+		<div class="panel panel-default" id="resultsPanel">
+			<div class="panel-heading" id="numResults"></div>
+		</div>
+		<!-- Search Results Box -->
+		<div class="container-fluid bg-4 text-center" id="searchResults">
+			
+		</div>
+		
+		<!-- Footer -->
+		<footer class="container-fluid bg-4 text-center" id="jenniFooter">
+			<p><span class="glyphicon glyphicon-flash"></span> Website By: Jenni Macklin</p>
+		</footer>
+		
+		<script src="script.js"></script>
+		<script src="bootstrap/js/jquery-2.2.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

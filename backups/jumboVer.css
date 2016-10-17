@@ -1,0 +1,23 @@
+.jumbotron {
+	background-image: url("img/confectionary.png")
+}
+
+h1 {
+	color: #2f2f2f;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+ }
+  
+ .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+ }
+
+ .form-group {
+	 padding-left: 10%;
+	 padding-right: 10%;
+ }

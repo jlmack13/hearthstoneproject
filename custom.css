@@ -1,0 +1,25 @@
+.jumbotron {
+	/*Background pattern from subtlepatterns.com*/
+	background-image: url("img/footer_lodyas.png");
+	color: white;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-group {
+	/*Add padding to the search area so it doesn't stretch across the whole page*/
+	 padding-left: 22%;
+	 padding-right: 22%;
+ }
+ 
+#searchBtn {
+	 background-color: #D7263D;
+	 border-color:  #721925;
+ }
+ 
+#jenniFooter {
+      padding-top: 70px;
+      padding-bottom: 70px;
+ }
